@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(173, 195, 214);
+}
+
+h1 {
+    color: blue;
+}
+
+h1#principal {
+    text-align: center;
+    color: black;
+    background-color: #ffffff;
+    
+}
+
+h2 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.basico {
+    color: red;
+}
+
+.intermediario {
+    color: blue;
+}
+
+.avancado {
+    color: rgb(40, 189, 40);
+}
+
+.apredendo {
+    color: white;
+    background-color: black;
+}
+
+.porao {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

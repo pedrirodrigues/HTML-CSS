@@ -1,0 +1,65 @@
+@charset "UTF-8"
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps; 
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header a, footer a {
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+ header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-left: 30px;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.normal {
+    background-color: brown;
+    color: black;
+}
+
+section.imagem {
+    background-color: black;
+    color: white;
+}
+
+section > p {
+    background-color: rgba(205, 208, 255, 0.596);
+    width: 500px;
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+}

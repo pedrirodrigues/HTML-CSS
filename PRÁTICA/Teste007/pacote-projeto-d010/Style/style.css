@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari&display=swap" rel="stylesheet">);
+
+@font-face {
+    font-family: 'Porao';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+:root {
+    --cor0: #b12ba6;
+    --cor1: #383766;
+    --cor2: #3A37E6;
+    --cor3: #807EEA;
+    --cor4: #1A1866;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Yuji Hentaigana Akari', cursive;
+    --fonte-porao: 'Porao', cursive;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+    
+}
+
+nav {
+    background-color: var(--cor3);
+    padding: 15px;
+    box-shadow: 1px 1px 5px black;
+    height: 15px;
+    
+}
+
+nav > a {
+    color: rgb(0, 195, 255);
+    padding: 7px;
+    transition-duration: .2s;
+    text-decoration: none;
+}
+nav > a:hover {
+    background-color: rgb(18, 58, 190);
+    border-radius: 8px 4px;
+}
+a.externo::after {
+    content: '\1F517';
+}
+
+a:active {
+    color: #b12ba6;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    margin-bottom: 17px;
+    font-size: 3em;
+    text-shadow: 3px 5px 2px rgba(0, 0, 0, 0.623);
+    
+    
+}
+
+header > p {
+    font-family: var(--fonte-padrao);
+    color: white;
+    font-size: 0.9em;
+    max-width: 580px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: auto;
+    margin-bottom: 17px;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.623);
+}
+
+main {
+    background-color: var(--cor2);
+    margin: auto;
+    min-width: 300px;
+    max-width: 1100px;
+    margin-top: 1px;
+    margin-bottom: 27px;
+    padding: 25px;
+    box-shadow: 0px 0px 5px black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+    
+}
+
+main  h1 {
+    color: var(--cor1);
+    font-family: var(--fonte-porao);
+    
+}
+
+main h2 {
+    color: var(--cor4);
+    font-family: var(--fonte-porao);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor3), transparent);
+    text-indent: 6px;
+}
+
+main h3 {
+    color: var(--cor3);
+    font-family: var(--fonte-porao);
+}
+main p {
+    margin: 16px 0px;
+    text-align: justify;
+    text-indent: 28px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: rgb(231, 126, 6);
+    font-weight: bold;
+}
+main a {
+    background-color: rgb(19, 19, 1);
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 2px;
+    border-radius: 3px 3px;
+}
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
+}
+
+main img {
+    width: 100%;
+    
+}
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.video {
+    background-color: var(--cor4);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+aside {
+    background-color: var(--cor3);
+    padding: 8px;
+    border-radius: 5px 6px;
+}
+
+aside > h3 {
+    color: cadetblue;
+    background-color: #1A1866;
+    padding: 9px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul {
+    list-style-type: '\2714';
+    list-style-position: inside;
+    columns: 2;
+}
+
+footer {
+    background-color: var(--cor4);
+    text-align: center;
+
+}
+
+footer p {
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-size: 0.7em;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #b12ba6;
+    background-color: rgb(19, 19, 94);
+    text-align: center;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+
+

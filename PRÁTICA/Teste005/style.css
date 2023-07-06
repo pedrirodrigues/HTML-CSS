@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+      body {
+        background-color: rgb(16, 3, 51);
+        font-size: small;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      h1 {
+        color: darkgoldenrod;
+        background-color: brown;
+      } 
+      h2 {
+        color: red;
+        background-color: black;
+      }
+      h3 {
+        color: black;
+        background-color: aqua;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      p {
+        color: orange;
+        background-color: rgb(17, 17, 83);
+      }

@@ -54,29 +54,49 @@ header a, footer a {
 }
 
 section {
-    padding-left: 30px;
-    line-height: 2em;
+    
+    padding-left: 15px;
+    line-height: 1.5em;
     padding-top: 10vh;
     padding-bottom: 10vh;
     font-size: 3vw;
 }
 
+section p {
+    padding: 2em;
+    font-family: var(--fonte2);
+}
+
 section.normal {
-    background-color: brown;
+    background-color: rgb(18, 230, 212);
     color: black;
 }
 
 section.imagem {
-    display: inline-block;
-    padding: 5px;
     background-color: black;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.664);
+    background-attachment: fixed;
 }
 
-section > p {
-    background-color: rgba(205, 208, 255, 0.596);
-    width: 500px;
-    font-family: var(--fonte2);
+section.imagem > p {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(205, 208, 255, 0.185);
+    text-shadow: 1px 1px 0px black;
+    
+    
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center right;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg)
+    
     
 }
 

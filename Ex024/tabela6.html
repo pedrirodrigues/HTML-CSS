@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        div#container {
+            overflow-x: auto;
+        }
+
+        table { 
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 8px;
+            background-color: rgb(45, 85, 85);
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 9px;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(138, 119, 97);
+        }
+
+       
+
+        thead, tfoot {
+            background-color: blue;
+            color: #ffffff;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: blue;
+        }
+       
+   </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+   <div id="container">
+       <table>
+       
+           <caption>Cadastro</caption>
+           <thead>
+               <th>Nome</th>
+               <th>Idade</th>
+               <th>Sexo</th>
+               <th>Profissão</th>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>Ana Maria</td>
+                   <td>27</td>
+                   <td>F</td>
+                   <td>Professora</td>
+               </tr>
+               <tr>
+                   <td>Sofia Leandra</td>
+                   <td>19</td>
+                   <td>F</td>
+                   <td>Programadora</td>
+               </tr>
+               <tr>
+                   <td>Larissa</td>
+                   <td>18</td>
+                   <td>F</td>
+                   <td>Programadora</td>
+               </tr>
+               <tr>
+                   <td>Lucas Alcantara</td>
+                   <td>24</td>
+                   <td>M</td>
+                   <td>Strumer</td>
+               </tr>
+               <tr>
+                   <td>Talyta</td>
+                   <td>19</td>
+                   <td>F</td>
+                   <td>Strumer</td>
+               </tr>
+               <tr>
+                   <td>Kaya</td>
+                   <td>19</td>
+                   <td>F</td>
+                   <td>Strumer</td>
+               </tr>
+           </tbody>
+       </table>
+   </div>
+    
+</body>
+</html>
